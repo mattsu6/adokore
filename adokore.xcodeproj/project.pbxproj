@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E056BAA1D76D25D003AA545 /* CollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E056BA91D76D25D003AA545 /* CollectionController.swift */; };
+		9E056BAE1D76DF74003AA545 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E056BAD1D76DF74003AA545 /* CustomCell.swift */; };
+		9E2763DE1D7935E6002589BB /* RequestAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2763DD1D7935E6002589BB /* RequestAgent.swift */; };
+		9E38D67C1D7E4D0200F93DC2 /* ad.php in Resources */ = {isa = PBXBuildFile; fileRef = 9E38D67B1D7E4D0200F93DC2 /* ad.php */; };
+		9E81B3081D790CE600A404BC /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 9E81B3071D790CE600A404BC /* README.md */; };
+		AAFF373E063DCDFC2DCBED03 /* Pods_adokore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BBA96BC650CA242C0D81D21 /* Pods_adokore.framework */; };
+		AB088B401D70A5490006D640 /* AdokoreUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB088B3F1D70A5490006D640 /* AdokoreUser.swift */; };
+		C01C8C4B1D7798B0006094FD /* images in Resources */ = {isa = PBXBuildFile; fileRef = C01C8C4A1D7798B0006094FD /* images */; };
+		C05076B31D76497D00645D17 /* service.php in Resources */ = {isa = PBXBuildFile; fileRef = C05076B21D76497D00645D17 /* service.php */; };
+		C06C1E911D6F58E800CA3168 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06C1E901D6F58E800CA3168 /* AppDelegate.swift */; };
+		C06C1E931D6F58E800CA3168 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06C1E921D6F58E800CA3168 /* ViewController.swift */; };
+		C06C1E961D6F58E800CA3168 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C06C1E941D6F58E800CA3168 /* Main.storyboard */; };
+		C06C1E9B1D6F58E800CA3168 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C06C1E9A1D6F58E800CA3168 /* Assets.xcassets */; };
+		C06C1E9E1D6F58E800CA3168 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C06C1E9C1D6F58E800CA3168 /* LaunchScreen.storyboard */; };
+		C06C1EA91D6F58E800CA3168 /* adokoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06C1EA81D6F58E800CA3168 /* adokoreTests.swift */; };
+		C06C1EB41D6F58E800CA3168 /* adokoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06C1EB31D6F58E800CA3168 /* adokoreUITests.swift */; };
+		C0B7FC491D78E92800A5CEEA /* ad.sql in Resources */ = {isa = PBXBuildFile; fileRef = C0B7FC481D78E92800A5CEEA /* ad.sql */; };
+		C0B7FC4B1D78E93900A5CEEA /* adokore_user.sql in Resources */ = {isa = PBXBuildFile; fileRef = C0B7FC4A1D78E93900A5CEEA /* adokore_user.sql */; };
+		C0B7FC4D1D78E94B00A5CEEA /* idfa_users.sql in Resources */ = {isa = PBXBuildFile; fileRef = C0B7FC4C1D78E94B00A5CEEA /* idfa_users.sql */; };
+		C0B7FC4F1D78E95700A5CEEA /* relay_idfa_ad.sql in Resources */ = {isa = PBXBuildFile; fileRef = C0B7FC4E1D78E95700A5CEEA /* relay_idfa_ad.sql */; };
+		C0D96DAA1D78FB9D009CFD46 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C0D96DA91D78FB9D009CFD46 /* Podfile */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C06C1EA51D6F58E800CA3168 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C06C1E851D6F58E800CA3168 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C06C1E8C1D6F58E800CA3168;
+			remoteInfo = adokore;
+		};
+		C06C1EB01D6F58E800CA3168 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C06C1E851D6F58E800CA3168 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C06C1E8C1D6F58E800CA3168;
+			remoteInfo = adokore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4BBA96BC650CA242C0D81D21 /* Pods_adokore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_adokore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C388D905C57B3C2A8D73D2 /* Pods-adokore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-adokore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-adokore/Pods-adokore.debug.xcconfig"; sourceTree = "<group>"; };
+		9E056BA91D76D25D003AA545 /* CollectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionController.swift; sourceTree = "<group>"; };
+		9E056BAD1D76DF74003AA545 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		9E2763DD1D7935E6002589BB /* RequestAgent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestAgent.swift; sourceTree = "<group>"; };
+		9E38D67B1D7E4D0200F93DC2 /* ad.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = ad.php; sourceTree = "<group>"; };
+		9E81B3071D790CE600A404BC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AB088B3F1D70A5490006D640 /* AdokoreUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdokoreUser.swift; sourceTree = "<group>"; };
+		C01C8C4A1D7798B0006094FD /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		C05076B21D76497D00645D17 /* service.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = service.php; sourceTree = "<group>"; };
+		C06C1E8D1D6F58E800CA3168 /* adokore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = adokore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C06C1E901D6F58E800CA3168 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C06C1E921D6F58E800CA3168 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C06C1E951D6F58E800CA3168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C06C1E9A1D6F58E800CA3168 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C06C1E9D1D6F58E800CA3168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C06C1E9F1D6F58E800CA3168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C06C1EA41D6F58E800CA3168 /* adokoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = adokoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C06C1EA81D6F58E800CA3168 /* adokoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adokoreTests.swift; sourceTree = "<group>"; };
+		C06C1EAA1D6F58E800CA3168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C06C1EAF1D6F58E800CA3168 /* adokoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = adokoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C06C1EB31D6F58E800CA3168 /* adokoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adokoreUITests.swift; sourceTree = "<group>"; };
+		C06C1EB51D6F58E800CA3168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0B7FC481D78E92800A5CEEA /* ad.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ad.sql; sourceTree = "<group>"; };
+		C0B7FC4A1D78E93900A5CEEA /* adokore_user.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = adokore_user.sql; sourceTree = "<group>"; };
+		C0B7FC4C1D78E94B00A5CEEA /* idfa_users.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = idfa_users.sql; sourceTree = "<group>"; };
+		C0B7FC4E1D78E95700A5CEEA /* relay_idfa_ad.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = relay_idfa_ad.sql; sourceTree = "<group>"; };
+		C0D96DA91D78FB9D009CFD46 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C6D8710A11833B3EDFE8AA46 /* Pods-adokore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-adokore.release.xcconfig"; path = "Pods/Target Support Files/Pods-adokore/Pods-adokore.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C06C1E8A1D6F58E800CA3168 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFF373E063DCDFC2DCBED03 /* Pods_adokore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C06C1EA11D6F58E800CA3168 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C06C1EAC1D6F58E800CA3168 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27021B465E4BC510D71210A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65C388D905C57B3C2A8D73D2 /* Pods-adokore.debug.xcconfig */,
+				C6D8710A11833B3EDFE8AA46 /* Pods-adokore.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2A654AB6ACDB0C582060BA26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BBA96BC650CA242C0D81D21 /* Pods_adokore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C05076B11D76494300645D17 /* php */ = {
+			isa = PBXGroup;
+			children = (
+				C05076B21D76497D00645D17 /* service.php */,
+				9E38D67B1D7E4D0200F93DC2 /* ad.php */,
+			);
+			path = php;
+			sourceTree = "<group>";
+		};
+		C06C1E841D6F58E800CA3168 = {
+			isa = PBXGroup;
+			children = (
+				9E81B3071D790CE600A404BC /* README.md */,
+				C0D96DA91D78FB9D009CFD46 /* Podfile */,
+				C0B7FC471D78E90700A5CEEA /* sql */,
+				C05076B11D76494300645D17 /* php */,
+				C06C1E8F1D6F58E800CA3168 /* adokore */,
+				C01C8C4A1D7798B0006094FD /* images */,
+				C06C1EA71D6F58E800CA3168 /* adokoreTests */,
+				C06C1EB21D6F58E800CA3168 /* adokoreUITests */,
+				C06C1E8E1D6F58E800CA3168 /* Products */,
+				2A654AB6ACDB0C582060BA26 /* Frameworks */,
+				27021B465E4BC510D71210A2 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		C06C1E8E1D6F58E800CA3168 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C06C1E8D1D6F58E800CA3168 /* adokore.app */,
+				C06C1EA41D6F58E800CA3168 /* adokoreTests.xctest */,
+				C06C1EAF1D6F58E800CA3168 /* adokoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C06C1E8F1D6F58E800CA3168 /* adokore */ = {
+			isa = PBXGroup;
+			children = (
+				C06C1E901D6F58E800CA3168 /* AppDelegate.swift */,
+				9E056BA91D76D25D003AA545 /* CollectionController.swift */,
+				C06C1E921D6F58E800CA3168 /* ViewController.swift */,
+				C06C1E941D6F58E800CA3168 /* Main.storyboard */,
+				C06C1E9A1D6F58E800CA3168 /* Assets.xcassets */,
+				C06C1E9C1D6F58E800CA3168 /* LaunchScreen.storyboard */,
+				C06C1E9F1D6F58E800CA3168 /* Info.plist */,
+				AB088B3F1D70A5490006D640 /* AdokoreUser.swift */,
+				9E056BAD1D76DF74003AA545 /* CustomCell.swift */,
+				9E2763DD1D7935E6002589BB /* RequestAgent.swift */,
+			);
+			path = adokore;
+			sourceTree = "<group>";
+		};
+		C06C1EA71D6F58E800CA3168 /* adokoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				C06C1EA81D6F58E800CA3168 /* adokoreTests.swift */,
+				C06C1EAA1D6F58E800CA3168 /* Info.plist */,
+			);
+			path = adokoreTests;
+			sourceTree = "<group>";
+		};
+		C06C1EB21D6F58E800CA3168 /* adokoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C06C1EB31D6F58E800CA3168 /* adokoreUITests.swift */,
+				C06C1EB51D6F58E800CA3168 /* Info.plist */,
+			);
+			path = adokoreUITests;
+			sourceTree = "<group>";
+		};
+		C0B7FC471D78E90700A5CEEA /* sql */ = {
+			isa = PBXGroup;
+			children = (
+				C0B7FC481D78E92800A5CEEA /* ad.sql */,
+				C0B7FC4A1D78E93900A5CEEA /* adokore_user.sql */,
+				C0B7FC4C1D78E94B00A5CEEA /* idfa_users.sql */,
+				C0B7FC4E1D78E95700A5CEEA /* relay_idfa_ad.sql */,
+			);
+			path = sql;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C06C1E8C1D6F58E800CA3168 /* adokore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C06C1EB81D6F58E800CA3168 /* Build configuration list for PBXNativeTarget "adokore" */;
+			buildPhases = (
+				CF7C1F6030D3BC766E25B1D4 /* [CP] Check Pods Manifest.lock */,
+				C06C1E891D6F58E800CA3168 /* Sources */,
+				C06C1E8A1D6F58E800CA3168 /* Frameworks */,
+				C06C1E8B1D6F58E800CA3168 /* Resources */,
+				669FB8110B028B387DA1CE38 /* [CP] Embed Pods Frameworks */,
+				7AD9A5357588B671A58E0927 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = adokore;
+			productName = adokore;
+			productReference = C06C1E8D1D6F58E800CA3168 /* adokore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C06C1EA31D6F58E800CA3168 /* adokoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C06C1EBB1D6F58E800CA3168 /* Build configuration list for PBXNativeTarget "adokoreTests" */;
+			buildPhases = (
+				C06C1EA01D6F58E800CA3168 /* Sources */,
+				C06C1EA11D6F58E800CA3168 /* Frameworks */,
+				C06C1EA21D6F58E800CA3168 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C06C1EA61D6F58E800CA3168 /* PBXTargetDependency */,
+			);
+			name = adokoreTests;
+			productName = adokoreTests;
+			productReference = C06C1EA41D6F58E800CA3168 /* adokoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C06C1EAE1D6F58E800CA3168 /* adokoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C06C1EBE1D6F58E800CA3168 /* Build configuration list for PBXNativeTarget "adokoreUITests" */;
+			buildPhases = (
+				C06C1EAB1D6F58E800CA3168 /* Sources */,
+				C06C1EAC1D6F58E800CA3168 /* Frameworks */,
+				C06C1EAD1D6F58E800CA3168 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C06C1EB11D6F58E800CA3168 /* PBXTargetDependency */,
+			);
+			name = adokoreUITests;
+			productName = adokoreUITests;
+			productReference = C06C1EAF1D6F58E800CA3168 /* adokoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C06C1E851D6F58E800CA3168 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = mattsu;
+				TargetAttributes = {
+					C06C1E8C1D6F58E800CA3168 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = MJFS5K5B68;
+					};
+					C06C1EA31D6F58E800CA3168 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C06C1E8C1D6F58E800CA3168;
+					};
+					C06C1EAE1D6F58E800CA3168 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C06C1E8C1D6F58E800CA3168;
+					};
+				};
+			};
+			buildConfigurationList = C06C1E881D6F58E800CA3168 /* Build configuration list for PBXProject "adokore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C06C1E841D6F58E800CA3168;
+			productRefGroup = C06C1E8E1D6F58E800CA3168 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C06C1E8C1D6F58E800CA3168 /* adokore */,
+				C06C1EA31D6F58E800CA3168 /* adokoreTests */,
+				C06C1EAE1D6F58E800CA3168 /* adokoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C06C1E8B1D6F58E800CA3168 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0D96DAA1D78FB9D009CFD46 /* Podfile in Resources */,
+				C01C8C4B1D7798B0006094FD /* images in Resources */,
+				C0B7FC4D1D78E94B00A5CEEA /* idfa_users.sql in Resources */,
+				C0B7FC4B1D78E93900A5CEEA /* adokore_user.sql in Resources */,
+				C06C1E9E1D6F58E800CA3168 /* LaunchScreen.storyboard in Resources */,
+				C0B7FC4F1D78E95700A5CEEA /* relay_idfa_ad.sql in Resources */,
+				C06C1E9B1D6F58E800CA3168 /* Assets.xcassets in Resources */,
+				9E38D67C1D7E4D0200F93DC2 /* ad.php in Resources */,
+				C05076B31D76497D00645D17 /* service.php in Resources */,
+				C06C1E961D6F58E800CA3168 /* Main.storyboard in Resources */,
+				C0B7FC491D78E92800A5CEEA /* ad.sql in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C06C1EA21D6F58E800CA3168 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C06C1EAD1D6F58E800CA3168 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		669FB8110B028B387DA1CE38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-adokore/Pods-adokore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AD9A5357588B671A58E0927 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-adokore/Pods-adokore-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF7C1F6030D3BC766E25B1D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C06C1E891D6F58E800CA3168 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E81B3081D790CE600A404BC /* README.md in Sources */,
+				AB088B401D70A5490006D640 /* AdokoreUser.swift in Sources */,
+				C06C1E931D6F58E800CA3168 /* ViewController.swift in Sources */,
+				9E056BAA1D76D25D003AA545 /* CollectionController.swift in Sources */,
+				9E2763DE1D7935E6002589BB /* RequestAgent.swift in Sources */,
+				9E056BAE1D76DF74003AA545 /* CustomCell.swift in Sources */,
+				C06C1E911D6F58E800CA3168 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C06C1EA01D6F58E800CA3168 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C06C1EA91D6F58E800CA3168 /* adokoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C06C1EAB1D6F58E800CA3168 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C06C1EB41D6F58E800CA3168 /* adokoreUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C06C1EA61D6F58E800CA3168 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C06C1E8C1D6F58E800CA3168 /* adokore */;
+			targetProxy = C06C1EA51D6F58E800CA3168 /* PBXContainerItemProxy */;
+		};
+		C06C1EB11D6F58E800CA3168 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C06C1E8C1D6F58E800CA3168 /* adokore */;
+			targetProxy = C06C1EB01D6F58E800CA3168 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C06C1E941D6F58E800CA3168 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C06C1E951D6F58E800CA3168 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C06C1E9C1D6F58E800CA3168 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C06C1E9D1D6F58E800CA3168 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C06C1EB61D6F58E800CA3168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C06C1EB71D6F58E800CA3168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C06C1EB91D6F58E800CA3168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65C388D905C57B3C2A8D73D2 /* Pods-adokore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = adokore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mattsu.adokore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos9.3;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C06C1EBA1D6F58E800CA3168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6D8710A11833B3EDFE8AA46 /* Pods-adokore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = adokore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mattsu.adokore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos9.3;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C06C1EBC1D6F58E800CA3168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = adokoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mattsu.adokoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/adokore.app/adokore";
+			};
+			name = Debug;
+		};
+		C06C1EBD1D6F58E800CA3168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = adokoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mattsu.adokoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/adokore.app/adokore";
+			};
+			name = Release;
+		};
+		C06C1EBF1D6F58E800CA3168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = adokoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mattsu.adokoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = adokore;
+			};
+			name = Debug;
+		};
+		C06C1EC01D6F58E800CA3168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = adokoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mattsu.adokoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = adokore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C06C1E881D6F58E800CA3168 /* Build configuration list for PBXProject "adokore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C06C1EB61D6F58E800CA3168 /* Debug */,
+				C06C1EB71D6F58E800CA3168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C06C1EB81D6F58E800CA3168 /* Build configuration list for PBXNativeTarget "adokore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C06C1EB91D6F58E800CA3168 /* Debug */,
+				C06C1EBA1D6F58E800CA3168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C06C1EBB1D6F58E800CA3168 /* Build configuration list for PBXNativeTarget "adokoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C06C1EBC1D6F58E800CA3168 /* Debug */,
+				C06C1EBD1D6F58E800CA3168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C06C1EBE1D6F58E800CA3168 /* Build configuration list for PBXNativeTarget "adokoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C06C1EBF1D6F58E800CA3168 /* Debug */,
+				C06C1EC01D6F58E800CA3168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C06C1E851D6F58E800CA3168 /* Project object */;
+}
